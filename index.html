@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- Media Query -->
+		<style>
+			@media only screen and (max-width: 768px) {
+  		/* For mobile phones: */
+  		[class*="col-"] {
+    	width: 100%;
+  	}
+	}
+
+		.flex-container {
+		display: flex;
+		justify-content: center;
+	}
+		</style>
+</head>
+<body>
+
+		<!-- Company Logo -->
+		<header id="header" class="sticky">
+			<img id="header-img" src="https://fontmeme.com/images/Burger-King-Logo.png">
+
+				<nav id="nav-bar">
+					<a class="nav-link" href="#notre-histoire">Notre Histoire</a>
+					<a class="nav-link" href="#carte-menus">Menus</a>
+					<a class="nav-link" href="#livraison-rapide">Livraison</a>					
+				</nav>
+				<br>
+					<center>
+					<!-- Product Title -->
+					<h1>Burger King</h1>
+					</center>				
+			</header>
+				<section id="notre-histoire"></section>
+
+						<form id="form" action="https://www.freecodecamp.org/email-submit">
+					<center>
+					<input type="email" id="email" name="email" placeholder="Enter your email adresse"><br><br>
+					<input type="submit" id="submit" name="submit"  target="_top" method="post" value="GET STARTED"><br><br>
+						</form>
+					</center>
+				<section id="carte-menus">
+
+					<center>
+				<!-- Video -->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/YqnjAKIB8tU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe></center>
+				</section>
+
+						<h2><center>Livraison</center></h2>
+				<section id="livraison-rapide">
+					<div id="main">
+					<div class="flex-container">
+						<div>UNE GROSSE FAIM ? 🍔</div>
+						<div>CHAUD BOUILLANT ! 🔥</div>
+						<div>DESSERTS 🍨</div>
+						</div>
+					</div>
+				</section>
+	
+
+	</body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
